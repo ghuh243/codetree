@@ -21,7 +21,6 @@ public class Main {
             if (grid[nr][nc] == 1 && !visited[nr][nc]) {
                 visited[nr][nc] = true;
                 dfs(nr, nc);
-
                                 
                 if (answer == 1)
                     return;

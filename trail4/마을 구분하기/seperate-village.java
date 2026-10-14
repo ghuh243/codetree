@@ -65,6 +65,7 @@ static int n;
         System.out.println(list.size());
         for (int li : list) {
             System.out.println(li);
+            
         }
     }
 }
